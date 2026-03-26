@@ -1,5 +1,5 @@
 background{
-background-color: pink;
+background-color: red;
 }
 
 background{
@@ -65,4 +65,29 @@ background-color: var(--:root{
 
   --active-tool-bg: #242A3c;
 
+}
+
+*{
+    height: 100%;
+    width: 100%;
+    top: -2px;
+    left: 0px;
+    position:absolute;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    overflow: hidden;
+    background-color: var(--mango-1);
+    border-color: var(--lime-3);
+    color: var(--lime-3);
+}
+
+logo{
+    height: 170px;
+    width: 170px;
+    top:10%;
+    left: 50%;
+    transform: translate(-50%,-10%);
 }
